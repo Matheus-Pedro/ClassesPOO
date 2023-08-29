@@ -1,4 +1,4 @@
-from pessoa import Pessoa
+from classes.pessoa import Pessoa
 
 class Funcionario(Pessoa): #Cria Classe funcionário herdando atributos e 'dunders' da classe pessoa 
     def __init__(self, nome, cpf, idade, email, endereco, salario, profissao, duracao_contrato, setor):
